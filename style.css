@@ -1,0 +1,126 @@
+body{
+	letter-spacing: 0.1em;
+    font-family: 'Monda', sans-serif;
+	background-image:url(Cork%20Board%20Background%20Corkboard-hd-wallpapers.jpg.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+#card{
+    display: inline-block;
+	min-height:350px;
+	width:24%;
+    min-width: 200px;
+	margin:20px 40px 40px 40px;
+    padding: 40px;
+	background: url(note.jpg) 0 0 no-repeat;
+	border-radius: 15px 15px 15px 15px;
+	background-size:100% 100%;
+    text-align: center;
+	box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+		0px 8px 13px rgba(0,0,0,0.1),
+		0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#game{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    min-width:300px;
+}
+
+#title{
+	font-size: 20px;
+	text-transform: uppercase;	
+}
+
+#banned_words ul{
+	list-style: none;
+}
+
+#banned_words ul li{
+	line-height: 45px;
+	margin-left:-40px;
+	font-size:22px;
+	font-weight:bold;
+}
+
+#buttons{
+    display: inline-block;
+}
+
+#buttons button{
+    width:40%;
+    display: block;
+}
+
+button{
+    background:rgba(221, 163, 33, 1);
+    border-radius: 2px;
+    border:0px;
+    min-width: 130px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+		0px 8px 13px rgba(0,0,0,0.1),
+		0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#points{
+    background:rgba(221, 163, 33, 1);
+    width:80%;
+    margin:0 auto;
+    min-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+		0px 8px 13px rgba(0,0,0,0.1),
+		0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#points ul{
+	list-style: none;
+	text-align: center;
+    margin:0 0 50px -40px;
+}
+
+button:last-child{
+    margin-bottom: 40px;
+}
+
+#points ul li{
+	font-size: 70px;	
+	display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#green{
+	color:#CEFA75;
+}
+
+#red{
+	color:#FF7070;
+}
+
+#score{
+	margin-top: 30px;
+}
+
+@media(max-width: 720px) {
+    #points ul li{
+        font-size:30px;
+    }
+    
+    #card,#buttons{
+        margin:0 auto;
+        text-align: center;
+    }
+    
+    button{
+        margin: 0 auto;
+        margin-top:20px;
+    }
+}
+
